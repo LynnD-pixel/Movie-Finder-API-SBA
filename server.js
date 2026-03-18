@@ -1,7 +1,6 @@
 import express from 'express'
 import 'dotenv/config'
-import routes from './routes/moviesRoutes'
-import controller from './controllers/movieController'
+import movieRoutes from './routes/moviesRoutes'
 
 
 const app = express()
